@@ -23,6 +23,6 @@ if (!isset($_SESSION["last_regeneration"])) {
 }
 
 function generate_id() {
-    session_regenerate_id();
+    session_regenerate_id(true);
     $_SESSION["last_regeneration"] = time();
 }
