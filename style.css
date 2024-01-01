@@ -1,0 +1,35 @@
+body {
+    background-color: #d5d5d5e6;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+input {
+    display: block;
+    background-color: white;
+    margin: auto;
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border: solid white 0px;
+}
+button {
+    display: block;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 7px;
+    margin-top: 13px;
+    border: solid white 0px;
+}
+p {
+    text-align: center;
+    color: red;
+    margin-top: 0;
+}
+.success {
+    color: green;
+}
